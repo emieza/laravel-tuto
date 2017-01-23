@@ -11,6 +11,15 @@
 |
 */
 
+// V2 amb Controllers
+
+Route::get( "/", "HomeController@getHome" );
+
+Route::resource( 'catalog', "CatalogController" );
+
+
+// V1 Routes directes a les views
+/*
 Route::get('/', function () {
     return view('index',array("nom"=>"Enric"));
 });
@@ -39,3 +48,4 @@ Route::get('/catalog/edit/{id}', function ($id) {
     return view('catalog.edit');
 });
 
+*/
