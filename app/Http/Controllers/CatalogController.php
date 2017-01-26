@@ -19,14 +19,25 @@ class CatalogController extends Controller
                     'id'=>$id) );
     }
     
-    //
+    // form pel UPDATE
     public function edit($id) {
     	return view( 'catalog.edit', array('id'=>$id) );
     }
     
-    //
+    // ve del EDIT
+    public function update($id) {
+        return "Pelicula actualizada correctamente.<br>
+                <a href='/'>Seguir</a>";
+    }
+
+    // formulari pel STORE:
     public function create() {
     	return view( 'catalog.create' );
+    }
+
+    // ve del CREATE 
+    public function store() {
+        return "Store";
     }
     
     //
