@@ -7,7 +7,7 @@
 
     <div class="col-sm-4">
 
-        <img src="{{ $peli['poster'] }}" />
+        <img src="{{ $peli['poster'] }}" style="max-width:100%" />
 
     </div>
     <div class="col-sm-8">

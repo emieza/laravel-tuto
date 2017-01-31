@@ -38,12 +38,17 @@
 
 					<div class="form-group">
     					<label for="poster">Poster</label>
-    					<input type="file" name="poster" id="poster" class="form-control">
+    					<input type="url" name="poster" id="poster" class="form-control">
 					</div>
 
 					<div class="form-group">
 						<label for="synopsis">Resumen</label>
     					<textarea name="synopsis" id="synopsis" class="form-control" rows="3"></textarea>
+					</div>
+
+					<div class="form-group">
+						<label for="rented">Alquilada</label>
+    					<input type="checkbox" name="rented" id="rented" class="form-control">
 					</div>
 
 					<div class="form-group text-center">

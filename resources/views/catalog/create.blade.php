@@ -38,7 +38,7 @@
 
 					<div class="form-group">
     					<label for="poster">Poster</label>
-    					<input type="file" name="poster" id="poster" class="form-control">
+    					<input type="url" name="poster" id="poster" class="form-control">
 					</div>
 
 					<div class="form-group">
